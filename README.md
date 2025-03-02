@@ -1,4 +1,4 @@
-# End-to-End Medical Chatbot - Generative AI
+# Generative AI Projects: Medical Chatbot using RAG for learning purpose
 
 ## How to Run?
 
@@ -85,3 +85,6 @@ Open your web browser and go to `http://localhost:5000`. You can now ask medical
 * This chatbot is for learning purposes only. Always ask a real doctor for medical advice.
 * Replace `YOUR_USERNAME/YOUR_REPO_NAME` with your actual repository path.
 ```
+
+Credits: 
+Bappy Ahmed for guidance by youtube video
