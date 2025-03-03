@@ -1,4 +1,4 @@
-FROM python:3.7-slim-buster
+FROM python:3.10-slim-buster
 
 # Set the working directory in the container
 WORKDIR /app
@@ -7,7 +7,6 @@ WORKDIR /app
 COPY . /app/
 
 # Install the dependencies
-RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Run the application
