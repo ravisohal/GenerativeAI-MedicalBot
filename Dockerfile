@@ -7,7 +7,8 @@ WORKDIR /app
 COPY . /app/
 
 # Install the dependencies
-RUN pip install -r requirements.txt
+RUN pin install --upgrade pip
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Run the application
 CMD ["python", "app.py"]
