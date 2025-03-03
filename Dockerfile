@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app/
 
 # Install the dependencies
-RUN pin install --upgrade pip
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Run the application
